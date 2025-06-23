@@ -67,3 +67,18 @@ No1
   </div>
 </body>
 </html>
+body {
+  background: linear-gradient(135deg, #f9e6f0, #ffe8cc, #d2f0f4);
+  background-size: 600% 600%;
+  animation: gradientShift 15s ease infinite;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
